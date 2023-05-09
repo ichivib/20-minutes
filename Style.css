@@ -1,0 +1,286 @@
+html {
+ width: 1313px;
+ height: 1741px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+body {
+    padding: 70px 50px; 
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-size: contain;
+}
+
+#strongbleu {
+    color: #034693;
+}
+
+/* #strongblanc {
+    color: white;
+
+} */
+-------------------------------------------------------
+
+/* début de logo */
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.logominute {
+    width: 300px;
+    height: 300px;
+}
+
+.idf {
+    font-size: 25px;
+    color: white;
+    background-color: #034693;
+    display: flex;
+    justify-content: center;
+    margin: 0;  
+}
+/* fin de logo */
+
+/* début femme  */
+.femme {
+display: flex;
+flex-direction: row;
+margin: 0px 20px;
+margin-left: 40px;
+}
+
+.photofemme {
+    height: 300px;
+    width: 400px;
+    margin: 0 0 0 40px;
+
+}
+.textefemme {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin: 0;
+    font-style: italic;
+}
+/* fin femme  */
+
+/* début 20 minutes */
+.titreminute {
+    font-size: 40px;   
+    margin: 0 0 0 auto; 
+}
+
+.textetitre {
+    font-size: 25px;
+    color: white;
+    background-color: #034693;   
+    display: flex;
+    justify-content: center;
+}
+
+.claire {
+    color: #034693;
+}
+/* fin 20 minutes */
+
+-----------------------------------------------------
+
+/* début de main */
+#main1 {
+    display: flex;
+    flex-direction: column;
+}  
+
+.classhr {
+ width: 300px;
+ margin: 8px 0px;
+}
+
+.titre {
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+}
+
+.soustitre {
+    margin: 0;
+    margin-bottom: 1%;
+}
+
+.centre {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+/* .cote {
+    display: flex;
+    flex-direction: row;    
+}
+
+.papier {
+    writing-mode: vertical-lr; 
+    transform: rotate(180deg);
+    margin: 0;      
+} */
+
+.gauche {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 0;
+} 
+
+.droite {
+    display: flex;
+    flex-direction: column;  
+    margin:  0 10px;  
+}
+
+.phototea {
+    height: 300px;
+    width: 300px;
+}
+
+.tea {
+    display: flex;
+    flex-direction: row;
+}
+
+.harsin {
+    writing-mode: vertical-lr; 
+    transform: rotate(180deg);
+    font-style: italic;
+    margin: 0;
+}
+
+.photochameau {
+    height: 300px;
+    width: 300px;
+    margin: 16px 0 0 0;
+}
+
+.chameau {
+    display: flex;
+    flex-direction: row;
+}
+
+.television {
+    margin-bottom: 8px;
+}
+
+.vu {
+    writing-mode: vertical-lr; 
+    transform: rotate(180deg);
+    font-style: italic;
+    margin: 0;
+}
+
+/* début de photo arriere plan */
+/* .film {
+    display: flex;
+    flex-direction: row;
+}
+
+.photofilm {
+    width: 869px;
+    height: 941px;
+} */
+
+.droite {
+    background-image: url(image/film.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 941px;
+    margin: 0;
+    
+}
+/* .voir {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}     */
+.centre .voir{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+color: white;
+ margin-top: 64%;
+ margin-left: 2%;
+}
+
+
+.plon {
+
+    display: flex;
+    writing-mode: vertical-lr; 
+    transform: rotate(180deg);
+    font-style: italic;
+    margin: 0px;
+}
+
+.resume {
+    margin-top: 42%;
+    margin-left: 2%;
+}
+
+
+
+.murir {
+    margin: 0;
+    font-size: 78px;
+    font-weight: bold;
+
+}
+
+.vingt {
+    margin: 0;
+    font-size: 34px;
+} 
+
+/* fin de photo arriere plan */
+
+
+/* début de footer */
+
+footer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.festival {
+    display: flex;
+    flex-direction: row;
+}
+
+.photofestival {
+height: 199px;
+width: auto;
+}
+
+.pub {
+    writing-mode: vertical-lr; 
+    transform: rotate(180deg);
+    margin: 0;
+}
+
+.photoimprimerie {
+    display: flex;
+
+}
+    
+
+/* fin de footer */
+
+
+
+
